@@ -17,15 +17,14 @@ Este projeto foi desenvolvido como parte do curso do Senai, onde tivemos como ob
 Criar uma landing page responsiva que:
 
 - Possua uma navegação simples e intuitiva.
-- Esteja estilizada de maneira profissional, respeitando o design proposto.
 - Atenda aos princípios de **responsividade**, adaptando-se a diferentes dispositivos.
-
+- Coomprender a dinâmica de construção de páginas com **Bootstrap**.
 ---
 
 ## 🛠️ Funcionalidades da Landing Page
 
 - **Navbar** fixa no topo, com links para seções da página.
-- **Seção principal (Hero)** com título de destaque e botão de chamada para ação.
+- **Seção principal (Hero)** com título.
 - **Seção de portfólio** com cards para apresentar trabalhos ou projetos.
 - **Seção sobre** com descrição e informações adicionais.
 - **Seção de contato** com formulário funcional para envio de mensagens.
@@ -38,9 +37,11 @@ Criar uma landing page responsiva que:
 ```
 root/
 ├── index.html          # Arquivo principal da página
-├── assets/             # Diretório de recursos
-│   ├── css/            # Arquivos CSS
+├── src
+│   ├── assets/         # Diretório de recursos
+│   ├── fonts/          # Arquivos Fontes
 │   └── img/            # Imagens utilizadas no projeto
+│   ├── css/            # Arquivos CSS
 └── README.md           # Documentação do projeto
 ```
 
